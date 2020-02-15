@@ -3,8 +3,8 @@
   --color-MediumPurple: #9370db;
 }
 body {background-color: var(--color-MediumPurple);}
-h1 {text-align: center; margin-top:50px; margin-left:-30; font-family: 'Lemonada', cursive; font-size:150px;}
-p {text-align: center; font-family: 'Lemonada', cursive; font-size:25px;}
+h1 {text-align: center; margin-top:50px; margin-left:-30; font-family: 'Lemonada', cursive; font-size:150px;color:#f5f5f5;text-shadow:2px 2px #010b13;}
+p {text-align: center; font-family: 'Lemonada', cursive; font-size:25px;color:#f5f5f5;text-shadow:0.5px 0.5px #010b13;}
 .button-goback {
 	box-shadow: 0px 1px 5px -1px #000000;
 	background-color:var(--color-MediumPurple);
