@@ -1,11 +1,10 @@
-<link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"> 
 * {margin:0; padding:0;}
 :root {
   --color-MediumPurple: #9370db;
 }
 body {background-color: var(--color-MediumPurple);}
 h1 {text-align: center; margin-top:50px; margin-left:-30; font-family: 'Lemonada', cursive; font-size:150px;}
-p {text-align: center; font-family: 'Lemonada', cursive; font-size:25px;}
+p {text-align: center; font-family: 'Lemonada', cursive; font-size:25px;margin-top:-125px;}
 .button-goback {
 	box-shadow: 0px 1px 5px -1px #000000;
 	background-color:var(--color-MediumPurple);
