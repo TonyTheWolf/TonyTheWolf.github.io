@@ -1,6 +1,12 @@
 * {margin:0; padding:0;}
 :root {
   --color-MediumPurple: #9370db;
+  --color-prealpha: #c2c2c2;
+  --color-alpha: #c24e4e;
+  --color-beta: #dea049;
+  --color-rc1: #a5d158;
+  --color-final: #5aad57;
+  --color-fix: #58d1a9;
 }
 body {background-color: var(--color-MediumPurple);overflow-y: scroll;}
 header {height:750px;}
@@ -19,6 +25,8 @@ div p.messageheader {font-family: 'Comfortaa', cursive; font-size: 20px; font-we
 div p.messageheader span.timestamp {float: right; font-size: 12px; padding-top:8px;}
 div.downloadnolink {height:50px;width:50px;background-color:#ffffff;border-radius:50%;float:right;margin-top:0px;margin-right:0px;box-shadow:0px 3px 10px 0.5px rgba(0,0,0,0.5); background-image: url('downloadred.svg'); background-size:30px 30px; background-position: 50% 50%; background-repeat: no-repeat; transition: background-color 0.4s, background-image 0.4s;}
 div.downloadnolink:hover {height:50px;width:50px;background-color:#ff5555;border-radius:50%;float:right;margin-top:0px;margin-right:0px;box-shadow:0px 3px 10px 0.5px rgba(0,0,0,0.5); background-image: url('downloadwhite.svg'); background-size:30px 30px; background-position: 50% 50%; background-repeat: no-repeat; transition: background-color 0.4s, background-image 0.4s;}
+div.mapstatus {height:50px;width:60%;margin:0 auto;background-color:var(--color-prealpha);border-radius:75px;box-shadow:0px 5px 10px 0.5px rgba(0,0,0,0.5);}
+div.mapstatus p {font-family: 'Comfortaa', cursive; font-size: 20px; font-weight: 700;color:#fff;text-align:center;padding-top:0px;}
 
 /* ///// Tooltips ///// */
 a.tooltips {
