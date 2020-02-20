@@ -2,7 +2,8 @@
 :root {
   --color-MediumPurple: #9370db;
 }
-body {background-color: var(--color-MediumPurple);overflow-y:scroll;}
+html {position:fixed; top:0; bottom:0;left:0; right:0;}
+body {position:fixed; top:0; bottom:0;left:0; right:0; background-color: var(--color-MediumPurple);overflow-y:scroll;}
 header {height:750px;}
 div.headerimage {position:relative;background-color:var(--color-MediumPurple);width:95%;height:700px;margin:auto;margin-top:-110px !important;border-radius:50px;transform: rotate(-4deg);z-index:1;}
 div.headerimage img {position:relative;width:100%;height:100%;border-radius:50px;object-fit: cover;}
