@@ -35,6 +35,11 @@ div#item {
 	padding: 15px;
 	cursor: pointer;
 	transition: ease-in-out 0.2s;
+	border-radius: 10px;
+}
+
+div#itemExtra {
+	height: 20px;
 }
 
 div#item:hover {
