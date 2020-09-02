@@ -16,8 +16,12 @@ body {
 	align-items: center;
 }
 
-img {
+img#header {
 	height: 512px;
+}
+
+img#badge {
+	height: 64px;
 }
 
 h1 { font-family: TF2 Build; }
