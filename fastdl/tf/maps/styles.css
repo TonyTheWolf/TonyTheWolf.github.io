@@ -26,3 +26,9 @@ img#badge {
 
 h1 { font-family: TF2 Build; margin-bottom: 20px; }
 p { font-family: TF2 Secondary; }
+
+div.item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
