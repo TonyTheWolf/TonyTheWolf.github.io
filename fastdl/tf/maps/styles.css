@@ -35,3 +35,7 @@ div#item {
 	padding: 15px;
 	cursor: pointer;
 }
+
+div#item:hover {
+	background: #8260ca;
+}
