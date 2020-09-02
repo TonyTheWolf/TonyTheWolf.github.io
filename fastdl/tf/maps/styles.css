@@ -24,5 +24,5 @@ img#badge {
 	height: 64px;
 }
 
-h1 { font-family: TF2 Build; }
+h1 { font-family: TF2 Build; margin-bottom: 20px; }
 p { font-family: TF2 Secondary; }
