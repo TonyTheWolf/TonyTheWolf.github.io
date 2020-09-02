@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: Minecraft;
-  src: url(../resources/fonts/Minecraft.otf);
+  src: url(/resources/fonts/Minecraft.otf);
 }
 
 body {
