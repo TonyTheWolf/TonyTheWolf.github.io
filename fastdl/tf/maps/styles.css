@@ -4,6 +4,9 @@
 	border: 0;
 }
 
+@font-face { font-family: TF2 Build; src: url(tf2build.ttf); }
+@font-face { font-family: TF2 Secondary; src: url(TF2secondary.ttf); }
+
 body {
 	background: #9370db;
 	height: 100vh;
@@ -16,3 +19,6 @@ body {
 img {
 	height: 512px;
 }
+
+h1 { font-family: TF2 Build; }
+p { font-family: TF2 Secondary; }
