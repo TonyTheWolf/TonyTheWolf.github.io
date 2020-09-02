@@ -32,6 +32,6 @@ div#item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 30px;
+	padding: 15px;
 	cursor: pointer;
 }
