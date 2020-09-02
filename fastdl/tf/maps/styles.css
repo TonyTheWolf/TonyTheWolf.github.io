@@ -47,8 +47,3 @@ div#itemExtra {
 div#item:hover {
 	background: #8260ca;
 }
-
-div#item:hover > div#itemExtra {
-	background: #6040a9;
-	min-height: 20px;
-}

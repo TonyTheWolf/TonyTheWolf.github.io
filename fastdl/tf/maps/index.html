@@ -6,14 +6,19 @@
 <body>
 	<img class=header src="deathrun.svg" style="height: 512px;"></img>
 	<h1>Deathrun Maps</h1>
-	<div id="item" name="test002" onClick="">
+	<div id="item" name="test002" onClick="extendTest002()">
 		<p>test002[hallway-signs]</p>
 		<img class=badge src="https://img.shields.io/badge/Current_Version-alpha--03-critical?style=flat"></img>
 		<img class=badge src="https://img.shields.io/badge/Errors-Yes-critical?style=flat"></img>
 		<img class=badge src="https://img.shields.io/badge/Last_Update-Sep_2020-inactive?style=flat"></img>
 	</div>
-	<div id="itemExtra" name"test002">
+	<div id="itemExtraTest002">
 	
 	</div>
+<script>
+	function extendTest002() {
+		document.getElementById(itemExtraTest002).style.backgroundColor = "#6040a9";
+	}
+</script>
 </body>
 </html>
