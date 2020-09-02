@@ -36,10 +36,12 @@ div#item {
 	cursor: pointer;
 	transition: ease-in-out 0.2s;
 	border-radius: 10px;
+	min-width: 800px;
 }
 
 div#itemExtra {
 	height: 20px;
+	min-width: 800px;
 }
 
 div#item:hover {
