@@ -25,7 +25,7 @@ img.badge {
 	margin-left: 10px;
 }
 
-h1 { font-family: TF2 Build; margin-bottom: 15px; color: snow; cursor: pointer; }
+h1 { font-family: TF2 Build; margin-bottom: 15px; color: snow; cursor: default; }
 p { font-family: TF2 Secondary; color: snow; cursor: pointer; }
 
 div#item {
