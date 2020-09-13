@@ -11,8 +11,13 @@ body {
 	height: 100vh;
 	width: 100vw;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 
-h1 { font-family: TF2 Build; margin-bottom: 15px; color: snow; cursor: default; }
+h1 { 
+	font-family: TF2 Build;
+	margin-bottom: 15px;
+	color: snow;
+	cursor: default;
+}

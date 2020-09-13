@@ -16,34 +16,56 @@ body {
 	align-items: center;
 }
 
-img.header {
-	height: 512px;
-}
-
 img.badge {
 	height: 20px;
 	margin-left: 10px;
 }
 
-h1 { font-family: TF2 Build; margin-bottom: 15px; color: snow; cursor: default; }
+h1 { font-family: TF2 Build; margin-bottom: 15px; color: snow; cursor: default; margin-top: 60px; }
 p { font-family: TF2 Secondary; color: snow; cursor: pointer; }
 
 div#item {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 15px;
+	flex-direction: column;
+	align-items: center;	
 	cursor: pointer;
-	transition: ease-in-out 0.2s;
+	transition: background-color 0.2s ease-in-out;
 	border-radius: 10px;
-	min-width: 800px;
 }
 
-div#itemExtra {
+div#current {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 20px;
-	min-width: 800px;
+	width: 100%;
+	padding: 10px;
+}
+
+div#old {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 0px;
+	max-height: 0px;
+	overflow: hidden;
 }
 
 div#item:hover {
 	background: #8260ca;
+	overflow: hidden;	
+}
+
+div#current:hover {
+	background: #604ea8;
+}
+
+div#item:hover > div#old {
+	max-height: 999px;
+	padding: 10px;
+}
+
+div#old:hover {
+	background: #604ea8;
 }
