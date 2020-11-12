@@ -98,6 +98,9 @@ body {
 }
 
 #itemFrame {
+	margin: 30px;
+	margin-top: 15px;
+	margin-bottom: 0px;
 	background-image: url(src/background/itemframe.png);	
 	background-size: cover;
 	height: 128px;
@@ -105,6 +108,8 @@ body {
 }
 
 #sign {
+	margin: 30px;
+	margin-top: 10px;
 	background-image: url(src/background/sign.png);
 	height: 70px;
 	width: 128px;
