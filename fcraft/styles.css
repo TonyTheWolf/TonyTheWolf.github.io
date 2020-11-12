@@ -1,0 +1,23 @@
+*, body {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+}
+
+@font-face { font-family: Minecraft; src: url(FILE); }
+
+body {
+	background: #9370db;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Minecraft;
+}
+
+h1 { 	
+	margin-bottom: 15px;
+	color: snow;
+	cursor: default;
+}
