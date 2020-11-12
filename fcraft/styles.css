@@ -4,6 +4,55 @@
 	border: 0;	
 }
 
+black {
+	color: #000000;
+}
+darkBlue {
+	color: #0000AA;
+}
+darkGreen {
+	color: #00AA00;
+}
+darkAqua {
+	color: #00AAAA;
+}
+darkRed {
+	color: #AA0000;
+}
+darkPurple {
+	color: #AA00AA;
+}
+gold {
+	color: #FFAA00;
+}
+gray {
+	color: #AAAAAA;
+}
+darkGray {
+	color: #555555;
+}
+blue {
+	color: #5555FF;
+}
+green {
+	color: #55FF55;
+}
+aqua {
+	color: #55FFFF;
+}
+red {
+	color: #FF5555;
+}
+lightPurple {
+	color: #FF55FF;
+}
+yellow {
+	color: #FFFF55;
+}
+white {
+	color: #FFFFFF;
+}
+
 @font-face { font-family: Minecraft; src: url(src/Minecraft.otf); }
 
 body {
