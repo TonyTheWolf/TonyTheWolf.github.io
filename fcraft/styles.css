@@ -8,6 +8,10 @@ black, darkBlue, darkGreen, darkAqua, darkRed, darkPurple, gold, gray, darkGray,
 	text-shadow: 2px 2px #00000077;
 }
 
+#sign black, #sign darkBlue, #sign darkGreen, #sign darkAqua, #sign darkRed, #sign darkPurple, #sign gold, #sign gray, #sign darkGray, #sign blue, #sign green, #sign aqua, #sign red, #sign lightPurple, #sign yellow, #sign white {
+	text-shadow: 2px 2px #00000077;
+}
+
 black {
 	color: #000000;
 }
