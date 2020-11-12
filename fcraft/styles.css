@@ -91,8 +91,15 @@ body {
 	margin-top: 30px;
 }
 
+#sidebyside {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 #itemFrame {
-	background-image: url(src/background/itemframe.png);
+	background-image: url(src/background/itemframe.png);	
+	background-size: cover;
 	height: 128px;
 	width: 128px;
 }
