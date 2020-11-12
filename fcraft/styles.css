@@ -4,6 +4,10 @@
 	border: 0;	
 }
 
+black, darkBlue, darkGreen, darkAqua, darkRed, darkPurple, gold, gray, darkGray, blue, green, aqua, red, lightPurple, yellow, white {
+	text-shadow: 2px 2px #00000077;
+}
+
 black {
 	color: #000000;
 }
@@ -60,12 +64,24 @@ body {
 	height: 100vh;
 	width: 100vw;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	font-family: Minecraft;
+	cursor: default;
 }
 
-h1 { 	
-	margin-bottom: 15px;
-	color: snow;
-	cursor: default;
+#tony {
+	height: auto;
+	width: 128px;
+}
+
+tonyNameplate {
+	margin-top: 30px;
+	background-color: #00000066;
+	padding: 2px 5px;
+	margin-bottom: 10px;
+}
+storeTitle { 	
+	margin-bottom: 30px;	
+	margin-top: 30px;
 }
