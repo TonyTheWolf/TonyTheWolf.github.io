@@ -4,7 +4,7 @@
 	border: 0;	
 }
 
-@font-face { font-family: Minecraft; src: url(FILE); }
+@font-face { font-family: Minecraft; src: url(src/Minecraft.otf); }
 
 body {
 	background: #9370db;
