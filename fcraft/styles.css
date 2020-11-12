@@ -113,8 +113,18 @@ body {
 #itemImage {
 	height: 100px;
 	width: 100px;
+	position: absolute;
+	z-index: 99;
 }
 
+#liquid {
+  clip-path: polygon(35% 85%, 66% 85%, 66% 78%, 72% 78%, 72% 53%, 66% 53%, 66% 47%, 34% 47%, 34% 53%, 28% 53%, 28% 79%, 35% 79%);
+  height: 100px;
+  width: 100px;
+	position: relative;
+	left: -3px;
+	bottom: -3px;
+}
 
 #sign {
 	margin: 30px;
