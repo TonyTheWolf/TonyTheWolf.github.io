@@ -97,4 +97,7 @@ body {
 	background-image: url(src/background/sign.png);
 	height: 64px;
 	width: 128px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
