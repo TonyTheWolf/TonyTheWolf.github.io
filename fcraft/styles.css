@@ -86,3 +86,15 @@ body {
 	margin-bottom: 30px;	
 	margin-top: 30px;
 }
+
+#itemFrame {
+	background-image: url(src/background/itemframe.png);
+	height: 128px;
+	width: 128px;
+}
+
+#sign {
+	background-image: url(src/background/sign.png);
+	height: 64px;
+	width: 128px;
+}
