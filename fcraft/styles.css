@@ -75,13 +75,14 @@ body {
 	width: 128px;
 }
 
-tonyNameplate {
+#tonyNameplate {
 	margin-top: 30px;
 	background-color: #00000066;
 	padding: 2px 5px;
 	margin-bottom: 10px;
 }
-storeTitle { 	
+
+#storeTitle { 	
 	margin-bottom: 30px;	
 	margin-top: 30px;
 }
