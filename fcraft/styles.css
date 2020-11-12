@@ -105,7 +105,16 @@ body {
 	background-size: cover;
 	height: 128px;
 	width: 128px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+#itemImage {
+	height: 100px;
+	width: 100px;
+}
+
 
 #sign {
 	margin: 30px;
