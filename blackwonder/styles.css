@@ -1,0 +1,47 @@
+* { margin: 0; padding: 0; border: 0; }
+
+body { background: #263238; color: white; min-height: 100vh; width: 100vw; display: flex; flex-direction: column; align-items: center; font-family: 'Montserrat', sans-serif; font-weight: 200; }
+
+body #header { background: #171E22; width: 100%; height: 60px; display: flex; flex-direction: row; align-items: center; justify-content: start; border-bottom: 4px solid #13181C; }
+#header #logo { font-size: 30px; font-weight: 600; margin: 0px 20px 0 12px;}
+#header #credit { font-size: 15px; font-weight: 500; color: #8C8F91;}
+#header #login { font-size: 13px; font-weight: 400; color: #8C8F91; position: absolute; right:20;}
+orange { color: #DD6727; }
+
+@media only screen and (max-width: 1200px) {
+
+#container { max-width: 90% !important; }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+#container { flex-direction: column; justify-content: start; align-items: center; flex-grow: 0;}
+
+.perklist { width: 80%; margin-bottom: 0px; }
+.perklist#left { margin-right: 0px !important; margin-bottom: 12px; }
+.perklist#right { margin-left: 0px !important; margin-top: 12px; margin-bottom: 64px; }
+.perklist .header { height: 70px !important; }
+
+}
+
+#container { height: 100%; width: 100%; max-width: 1140px; display: flex; justify-content: center; align-items: flex-start; flex-grow: 1;}
+h1 { font-size: 70px; font-weight: 200; line-height: 60px; margin: 50px; 0; }
+
+.perklist { background: #1B2327; min-height: 256px; width: 100%; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; align-items: center; margin-bottom: 64px; }
+.perklist#left { margin-right: 12px; }
+.perklist#right { margin-left: 12px; }
+.perklist .header { background: #1B3036; height: 50px; width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center; border-bottom: 4px solid #101D20; font-weight: 400; font-size: 25px;}
+.perklist .items { height: 100%; width: 85%; flex-grow: 1; }
+.perklist #button { background: #007BFF; height: 40px; width: 90%; border-radius: 5px; font-weight: 200; font-size: 18px; line-height: 40px; text-align: center; margin: 22px 0; }
+.perklist #price { font-size: 50px; font-weight: 300; margin: 35px 0; }
+gray { color: #6C757D !important; }
+tiny { font-size: 12px; margin-left: 30px; }
+
+.items { color: white; text-indent: -15px; padding-left: 60px; font-weight: 200; font-size: 17px;}
+.items p { margin-top: 10px; } .items p:first-of-type { margin-top: 0px; }
+.items .not { color: #36454C; font-weight: 400; }
+.items .bonus { margin-left: -2px; font-weight: 400 !important; }
+.items .fas { margin-right: 15px; font-weight: 900; }
+.items .fa-check { color: #2ECC71; }
+.items .fa-star { color: #DD6727 !important; }
