@@ -41,6 +41,7 @@ h1 { font-size: 70px; font-weight: 200; line-height: 60px; margin: 50px; 0; }
 .perklist #price { font-size: 50px; font-weight: 300; margin: 35px 0; }
 gray { color: #6C757D !important; }
 tiny { font-size: 12px; margin-left: 30px; }
+new { font-size: 10px; font-weight: 600; margin-left: 5px; position: relative; top:-2; padding: 2px 5px; background: #DD6727; border-radius: 5px;}
 
 .items { color: white; text-indent: -15px; padding-left: 60px; font-weight: 200; font-size: 17px;}
 .items p { margin-top: 10px; } .items p:first-of-type { margin-top: 0px; }
