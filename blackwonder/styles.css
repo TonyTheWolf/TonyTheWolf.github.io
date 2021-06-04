@@ -44,7 +44,7 @@ tiny { font-size: 12px; margin-left: 30px; }
 new { font-size: 10px; font-weight: 600; margin-left: 10px; position: relative; top:-2; padding: 2px 5px; background: #DD6727; border-radius: 5px;}
 
 .items { color: white; text-indent: -15px; padding-left: 60px; font-weight: 200; font-size: 17px;}
-.items p { margin-top: 10px; } .items p:first-of-type { margin-top: 0px; }
+.items p { margin-top: 10px; } .items p:first-of-type { margin-top: 0px; font-weight: 700; }
 .items .not { color: #36454C; font-weight: 400; }
 .items .bonus { margin-left: -2px; font-weight: 400 !important; }
 .items .fas { margin-right: 15px; font-weight: 900; }
